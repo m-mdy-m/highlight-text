@@ -6,5 +6,58 @@
 }
 body {
   height: 100%;
-  background: linear-gradient(to right, #201d2e 50%, #f6f6f6 50%) fixed;
+  background: linear-gradient(
+      to right bottom,
+      #143a02ad,
+      #20184ed7,
+      #132133a4,
+      #161a4ba6
+    )
+    fixed;
+}
+.container {
+  width: 50%;
+  background-color: #0ba1498a;
+  padding: 50px 40px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 5px;
+  box-shadow: 0 20px 35px rgba(60, 60, 60, 0.2);
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper input {
+  width: 60%;
+  padding: 10px 7px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-left: 2px solid;
+  border-color: rgba(18, 159, 184, 0.651);
+  color: #a29cc2d7;
+  font-size: 1em;
+}
+.wrapper input::-webkit-search-cancel-button {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.wrapper button {
+  width: 30%;
+  background-color: #201d2e;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 3px;
+}
+.container p {
+  line-height: 35px;
+  text-align: justify;
+  margin-top: 30px;
 }
