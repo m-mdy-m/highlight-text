@@ -16,7 +16,7 @@ body {
     fixed;
 }
 .container {
-  width: 50%;
+  width: 30%;
   background-color: #0ba1498a;
   padding: 50px 40px;
   position: absolute;
@@ -60,6 +60,8 @@ body {
   line-height: 35px;
   text-align: justify;
   margin-top: 30px;
+  color:#b8c1cca4;
+  font-size: 20px;
 }
 mark{
     background: rgb(5, 245, 245);
